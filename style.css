@@ -1,0 +1,342 @@
+/*-------------------basic setup--------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+ul li {
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    
+    scroll-behavior: smooth;
+}
+
+.mother{
+    width: 100%;
+    background:linear-gradient(rgba(87, 81, 90, 0.5), rgba(45, 43, 46, 0.5)),url(img/contact-bg.jpg);
+    background-size: cover;
+   
+    background-position: center center;
+    height: 85vh;
+    
+}
+.mother1{
+     width: 100%;
+    overflow: hidden;
+    
+    background:#202929;
+    opacity: .5;
+    display: flex;
+    justify-content: space-between;
+    height: 145px;
+    
+}
+
+.mother1 ul{
+display: flex;
+}
+
+   
+
+.mother1 ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+   
+  
+}
+.mother1 ul li a:hover{
+    border: 1px solid #F26648;
+    color: #F26648;
+}
+
+
+.nav ul li:last-child{
+    margin-right: 280px;
+    
+}
+.logo{
+    width: 50%;
+}
+.logo img{
+   position: relative;
+   top: 50%;
+   left: 40%;
+   transform: translate(-50%,-50%);
+}
+.nav ul li{
+margin-top: 65px;
+
+}
+.display{
+   margin-top: 100px;
+   margin-left: 100px;
+}
+.display h1{
+    font-size: 50px;
+    color: #F26648;
+}
+.display p{
+    color: #a82d12;
+    font-size: 30px;
+}
+.display h1:hover{
+    color: rgb(218, 144, 126);
+    transition: .5s ease;
+}
+.display p span:hover{
+color: #fa8e00;
+}
+/* -------------ABOUT SECTION--------------*/
+.mother-2nd{
+    background:linear-gradient(rgb(97 93 93 / 90%),rgb(37, 22, 20,.9)),url(img/back2.jpeg) ;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: static;
+    opacity: .9;
+    height: 90vh;
+    background-position: center;
+    
+    background-size: cover;
+    
+}
+.about-section1{
+    text-align: center;
+}
+
+.about-section2{
+    display: flex;
+}
+.left-side1{
+    margin-left: 100px;
+    margin-right: 300px;
+}
+.left-side1 p{
+    color:#e28644;
+}
+.right-side1{
+   margin-right: 100px; 
+}
+.right-side1 img{
+    margin-right: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.about-section1 h1{
+    color:#8a4719;
+    font-size: 40px;
+     margin-bottom: 50px;
+   
+     
+  }
+.about-section1 h1::after{
+    content: "";
+    display: block;
+    
+    height: 3px;
+    background: #404645;
+    width: 200px;
+    margin: auto;
+    margin-top: 5px;
+}
+.right-side1 figcaption{
+    margin-left: 35px;
+    color:#7b4141;
+}
+
+/*--------SKILLS SECTION--------*/
+.mother-3rd{
+    background:linear-gradient( rgb(64, 70, 69,.7), rgb(64, 70, 69,.7)),url(img/skill-bg.jpg);
+    height: 70vh;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+progress{
+    width: 600px;
+}
+.skills{
+    text-align:center ;
+
+}
+.skills{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.skills h1{
+    margin-bottom: 20px;
+}
+    
+
+.skills h1::after{
+    content: "";
+    display: block;
+    
+    height: 3px;
+    background: #746231;
+    width: 200px;
+    margin: auto;
+    margin-top: 5px;
+}
+.progress-bar{
+    text-align: center;
+}
+.box label{
+    color:#9c0b2a;
+    font-weight: bold;
+}
+.p1 p{
+    margin-top: 50px;
+}
+.p1 p{
+    color: #912c15;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/*--------service section----------*/
+.mother-4th{
+    background-size: cover;
+    background-position: center center;
+    height: 70vh;
+    background:linear-gradient(rgb(119, 110, 103,.8),rgb(119, 110, 103,.8)),url(img/services-bg.jpg);;
+}
+.service{
+ 
+    text-align: center;
+}
+.box-service{
+    margin-top: 50px;
+    display: flex;
+}
+.service h1{
+   color: rgb(51, 63, 85);
+   text-transform: uppercase;
+}
+.service h1::after{
+    content: "";
+    display: block;
+    
+    height: 3px;
+    background: #404645;
+    width: 200px;
+    margin: auto;
+    margin-top: 5px;
+}
+.box1 h1{
+    margin-bottom: 30px;
+    color: #694534;
+    font-size: 25px;
+
+}
+.box1 p{
+    color: rgb(121 41 41 / 88%);
+    font-size: 20px;
+}
+.links{
+    margin-top: 20px;
+}
+.links ul{
+    display: flex;
+}
+.links ul li{
+    width: 40px;
+    height: 40px;
+    background: rgb(31, 37, 37);
+    padding: 10px;
+   
+    border-radius: 50%;
+    margin-left: 2px;
+}
+.fab{
+    color: #f2f3eb;
+}
+
+.links ul li:hover{
+    background: #F26648;
+    transform: rotate(80deg);
+}
+.mother-5th{
+    display: flex;
+    background: linear-gradient( rgb(60, 84, 153,.9), rgb(60, 84, 153,.9)),url(img/contact-bg.jpg);;
+}
+.input-side{
+    margin-left: 100px;
+}
+.input-side input[type="text"], .input-side input[type="email"], .input-side textarea {
+    background: #273A71;
+    border: 1px solid #273A71;
+    width: 100%;
+    padding: 10px;
+    border-radius: .5rem;
+    font-size: 1.8rem;
+    color: #fff;
+    margin:5px 0;
+    outline: none;
+}
+input[type="submit"]{
+    background:#273A71; 
+    padding: 5px 15px;
+    outline: none;
+    border-radius: 3px;
+}
+input[type="submit"]:hover{
+    background: #642d1d;
+}
+address p{
+    line-height: 20px;
+    margin-left: 50px;
+    color: #F26648;
+}
+address h2{
+    margin-left:50px;
+    margin-bottom: 20px;
+    color: #F26648;
+}
+.links ul{
+    margin-left:50px ;
+}
+address h2::after{
+    content: "";
+    display: block;
+    
+    height: 3px;
+    background: #bbe2dc;
+    width: 200px;
+    
+    margin-top: 5px;
+}
+/*------------------ responisive design------------*/
+/*---for laptop and desktop view----*/
+@media only screen  and (min-width : 1224px) {
+    .about-section1{
+        margin-right: 150px;
+    }
+    .left-side1{
+        margin-left: 100px;
+        margin-right: 20px;
+    }
+    .about-section2 p{
+        font-size: 18px;
+        
+        
+    }
+    .right-side1 img{
+        margin-left: 0;
+    margin-right: 200px;
+    margin-top: 0;
+}
+    .p1{
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 17px;
+    }
+    
+}
